@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    width: 1200px;   
+    margin: 0 auto;
+
+}
+
+.title, .desc {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    color: red;
+}
+
+.nav{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+    background-color: darkviolet;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: darkorchid;
+    border: 1px solid darkorchid;
+}
+
+.item {
+    width: 263px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.item-pic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.item-link {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10 px;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+.item-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Itim', cursive;
+}
+
+h3 {
+
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Itim', cursive;
+    color: rgb(192, 114, 35); 
+}
+
+.wrapper {
+    width: 1500px;   
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+     
+}
+
+.product {
+    
+    width: 370px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.descript{
+    margin-top: 50px;
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    font-family: 'Itim', cursive;
+    margin-left: 50px;
+    font-size: larger;
+}
+
+ul{
+    margin-top: 10px;
+    color: rgb(9, 10, 10);
+    font-weight: italic;
+    margin-left: 70px;
+    margin-bottom: 1000;
+    font-size: large;
+}
